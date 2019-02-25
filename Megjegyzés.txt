@@ -1,0 +1,11 @@
+Android Studio-ban az Instant Run beállítást ki kell kapcsolni, vagy amúgy nem telepíti normálisan az alkalmazást.
+
+File -> Settings -> Build, Execution Deployment -> Instant Run (Enable Intant Run kivétele)
+Ha Instant Run-nal fel lett egyszer telepítve, akkor le kell törölni az alkalmazást, és Instant Run nélkül újratelepíteni.
+
+Illetve írtam email-ben, hogy fogok normális leírást csinálni, arról hogy mit csináltam, és mit nem, de idõ hiányában sajnos ezt nem tudtam elkészíteni.
+
+A lényeg az lett volna, hogy a "Legtöbbször vásárolt termék felajánlását lista készítésénél" funkciónak nem láttam sok értelmét,
+mert ha a felhasználó elgépeli a terméknevét, de ugyanarra gondol, akkor lehet az egyik termék többször volt egyébként a listákban,
+de sok elgépelés miatt nincs valós adatunk errõl, illetve nem akartam a háttérben tárolni olyan adatokat a userekrõl,
+amikkel kapcsolatban rosszul érezhetik magukat (statisztika a tudatuk nélkül).

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_createlist"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Create list" />
+        <item
+            android:id="@+id/nav_createcategory"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Create category" />
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Categories" />
+        <item
+            android:id="@+id/nav_shoppinglists"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Shopping lists" />
+    </group>
+
+</menu>
